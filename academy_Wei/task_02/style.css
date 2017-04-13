@@ -1,0 +1,133 @@
+body {
+    font-family: 黑体;
+    background-color: #D8D8D8;
+    font-size: 100%;
+}
+
+.article {
+    background-color: #FFF;
+    padding: 1em;
+    margin: 1em;
+    border-style: outset;
+}
+
+h1 {
+	width: 13%;
+	margin: 0px;
+	float: left;
+}
+
+.navi {
+    background-image: url(resource/images/background_spring.png);
+    height: 11em;
+}
+
+.navi ul {
+    list-style-type: disc;
+    margin: 0;
+    padding: 0;
+    float: right;
+    height: 11em;
+    padding-top: 5em;
+}
+
+.navi li {
+    float: left;
+    color:red
+;
+}
+
+.navi a {
+    display: block;
+    width: 7em;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+h3 {
+    color: #606060;
+}
+
+h4 {
+    font-size: 0.5em;
+    color: #A8A8A8;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.image {
+    border-style: solid;
+    border-color: #D8D8D8;
+    width: 10%;
+}
+
+img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.image p {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+}
+
+table th {
+    text-align: left;
+    background-color: #000;
+    color: #FFF;
+}
+
+table tr.lastLine {
+    background-color: #D8D8D8;
+}
+
+.sidebar {
+    background-color: #FFF;
+    margin: 2em;
+    padding: 1em;
+    line-height: 2em;
+}
+
+.sidebar form {
+    padding-left: 20%;
+}
+
+.sidebar label {
+    float: left;
+    width: 10em;
+    text-align: right;
+}
+
+.info {
+    color: #A8A8A8;
+    margin-left: 160px;
+    font-size: 13px;
+}
+
+.submit input {
+    width: 115%;
+    margin-left: -20%;
+    height: 3em;
+    color: #FFF;
+    background-color: #36F;
+    border-radius: 8px;
+}
+
+.copyright {
+    background-color: #000;
+    color: #FFF;
+    height: 1em;
+    text-align: center;
+    padding: 2em;
+    border-style: outset;
+    font-weight: bold;
+}
