@@ -1,0 +1,69 @@
+/*聖杯*/
+
+img {
+    height: auto;
+    width: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.main,
+.team,
+.logo {
+    float: left;
+    padding: 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: thin;
+}
+
+.container {
+    padding: 20px;
+    background-color: #eee;
+    border-style: solid;
+    border-color: #999;
+    border-width: thin;
+    position: relative;
+    overflow: hidden;
+}
+
+.main-content {
+    padding: 20px;
+    margin-left: 220px;
+    margin-right: 140px;
+    background-color: #fff;
+}
+
+.main {
+    width: 100%;
+}
+
+.team {
+    width: 200px;
+    margin-left: -100%;
+    background-color: #fff;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+.logo {
+    width: 120px;
+    margin-left: -120px;
+    background-color: #fff;
+    position: relative;
+    right: 20px;
+    top: 20px;
+}
+
+div.team>img {
+    height: 80px;
+    widows: 80px;
+    float: left;
+}
+
+div.team>span {
+    float: left;
+}

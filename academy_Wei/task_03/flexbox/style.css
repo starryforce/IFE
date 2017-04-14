@@ -1,0 +1,58 @@
+/*Flexbox */
+
+img {
+    height: auto;
+    width: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.container {
+    display: -webkit-flex;
+    display: flex;
+    padding: 20px;
+    background-color: #eee;
+    border-style: solid;
+    border-color: #999;
+    border-width: thin;
+}
+
+.main,
+.team,
+.logo {
+    margin:0 10px;
+    padding: 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: thin;
+    overflow: hidden;
+}
+
+.team {
+    -webkit-flex: none;
+    flex: none;
+    width: 200px;
+}
+
+.logo {
+    -webkit-flex: none;
+    flex: none;
+    width: 120px;
+}
+
+.main {
+    -webkit-flex: 1;
+    flex: 1;
+}
+
+div.team>img {
+    height: 80px;
+    widows: 80px;
+    float: left;
+}
+
+div.team>span {
+    float: left;
+}
