@@ -15,6 +15,7 @@ img {
     border-style: solid;
     border-color: #999;
     border-width: thin;
+    align-items: flex-start;
 }
 
 .main,
