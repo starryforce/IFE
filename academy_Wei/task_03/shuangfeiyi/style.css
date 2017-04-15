@@ -29,13 +29,6 @@ img {
     overflow: hidden;
 }
 
-.main-content {
-    padding: 20px;
-    margin-left: 220px;
-    margin-right: 140px;
-    background-color: #fff;
-}
-
 .main {
     width: 100%;
 }
@@ -66,4 +59,11 @@ div.team>img {
 
 div.team>span {
     float: left;
+}
+
+.main-content {
+    padding: 20px;
+    margin-left: 220px;
+    margin-right: 140px;
+    background-color: #fff;
 }
