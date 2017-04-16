@@ -1,0 +1,176 @@
+/*通用样式*/
+
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #666;
+}
+
+img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.clearfix {
+    /* 触发 hasLayout */
+    zoom: 1;
+}
+
+.clearfix:after {
+    content: '.';
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+
+/*背景布置*/
+
+.page {
+    width: 980px;
+    height: 1386px;
+    background-color: #fff;
+    margin: 50px auto;
+    padding: 0 44px;
+    position: relative;
+}
+
+.article {
+    position: relative;
+}
+
+
+/*页眉*/
+
+.header {
+    height: 63px;
+    width: 100%;
+    border-bottom: solid 2px #938e8c;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.header>div {
+    width: 110px;
+    height: 61px;
+    background-color: #f00;
+    position: relative;
+}
+
+.header>div>span {
+    color: #fff;
+    font-size: 12px;
+    font-family: SimSun;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.header>span {
+	position: absolute;
+    right: 0;
+    bottom: 0;
+    color: #d45d5c;
+    font-size: 12px;
+    font-family: SimSun;
+}
+
+
+/*页脚*/
+
+.footer {
+    height: 60px;
+    width: 892px;
+    border-top: solid 1px #938e8c;
+    margin-top: 30px;
+    position: absolute;
+    bottom: 0;
+}
+
+.footer>span {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-family: SimSun;
+    font-size: 12px;
+    color: #d45d5c;
+}
+
+
+/*文章1主*/
+
+.main {
+    background-color: #166;
+    width: 641px;
+    height: 600px;
+    float: left;
+}
+
+.main .para {
+    float: left;
+    width: calc(100% / 3.0);
+    padding-right: 1em;
+}
+
+#akagi {
+    width: 641px;
+    height: 301px;
+}
+
+
+/*文章1次*/
+
+.sidebar {
+    background-color: #616;
+    width: 203px;
+    height: 300px;
+    float: right;
+}
+
+
+/*文章2左*/
+
+.left {
+    background-color: #661;
+    width: 415px;
+    height: 400px;
+    float: left;
+}
+
+#shimakaze {
+    width: 180px;
+    height: 280px;
+}
+
+
+/*文章2右*/
+
+.right {
+    background-color: #116;
+    width: 458px;
+    height: 400px;
+    float: right;
+}
+
+#kongo {
+    width: 458px;
+    height: 275px;
+}
