@@ -1,0 +1,56 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Microsoft YaHei";
+}
+
+img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.clearfix {
+    /* 触发 hasLayout */
+    zoom: 1;
+}
+
+.clearfix:after {
+    content: '.';
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+.o-quarter {
+    position: relative;
+}
+
+.o-quarter .item {
+    float: left;
+    width: 25%;
+}
+
+.o-half {
+    position: relative;
+}
+
+.o-half .item {
+    float: left;
+    width: 50%;
+}

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="self.css">
+</head>
+
+<body>
+    <div class="g-wrapper">
+        <div class="g-hd m-nav clearfix">
+            <div class="content clearfix">
+                <div class="m-logo"><img src="resource/images/logo.png" alt="logo"></div>
+                <span>Kancolle</span>
+                <ul class="clearfix">
+                    <li>
+                        <a href="">首页</a>
+                    </li>
+                    <li>
+                        <a href="">探索</a>
+                    </li>
+                    <li>
+                        <a href="">排行</a>
+                    </li>
+                    <li>
+                        <a href="">新增</a>
+                    </li>
+                    <li>
+                        <a href="">上传</a>
+                    </li>
+                    <li><a href="">登录</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="g-bd clearfix">
+            <!-- 幻灯 slide -->
+            <div class="m-sld">
+                <div style="background-image:url(resource/images/start.jpg)" class="panel">
+                    <div class="content">
+                        <p>Discover your interest!</p>
+                        <p>更自由，定义自己的专属舰娘</p>
+                        <p>下载新魔改，分享新魔改</p>
+                        <button>开始探索</button>
+                    </div>
+                </div>
+                <div class="o-quarter option clearfix">
+                    <div class="item">
+                        <img src="resource/images/option1.png" alt="option1">
+                        <p>文案待添加，文案待添加，文案待添加</p>
+                    </div>
+                    <div class="item">
+                        <img src="resource/images/option2.png" alt="option2">
+                        <p>文案待添加，文案待添加，文案待添加</p>
+                    </div>
+                    <div class="item">
+                        <img src="resource/images/option3.png" alt="option3">
+                        <p>文案待添加，文案待添加，文案待添加</p>
+                    </div>
+                    <div class="item">
+                        <img src="resource/images/option4.png" alt="option4">
+                        <p>文案待添加，文案待添加，文案待添加</p>
+                    </div>
+                </div>
+            </div>
+            <!-- 静态展示 static display -->
+            <div class="m-stc">
+                <div class="content">
+                    <img src="resource/images/logo.png" alt="logo">
+                    <p>你渴望力量吗少年？不，我渴望Nai子</p>
+                </div>
+            </div>
+            <!-- 搜索框 search -->
+            <div class="m-sch" style="background-image:url(resource/images/search.png)">
+                <div class="content">
+                    <h2>查找小姐姐的新衣</h2>
+                    <p>每个小姐姐有不同种类的魔改，请自主查找你喜欢的类型</p>
+                    <form action="search.php" method="get">
+                        <select name="type" id="type">
+                            <option value="battleship">Battleship</option>
+                        </select>
+                        <select name="ship" id="ship">
+                            <option value="yamato ">Yamato</option>
+                        </select>
+                        <select name="cloth" id="cloth">
+                            <option value="bikini">Bikini</option>
+                        </select>
+                        <input type="submit" value="搜索">
+                    </form>
+                </div>
+            </div>
+            <!-- 排行 top -->
+            <div class="m-top">
+                <div class="content o-quarter clearfix">
+                    <div class="item">
+                        <img src="resource/images/top1.png" alt="top1">
+                        <h3>TOP1</h3>
+                        <p>川内</p>
+                    </div>
+                    <div class="item">
+                        <h3>TOP2</h3>
+                        <p>鹿岛</p>
+                        <img src="resource/images/top2.png" alt="top2">
+                    </div>
+                    <div class="item">
+                        <img src="resource/images/top3.png" alt="top3">
+                        <h3>TOP3</h3>
+                        <p>时雨</p>
+                    </div>
+                    <div class="item">
+                        <img src="resource/images/top4.png" alt="top4">
+                        <h3>TOP4</h3>
+                        <p>夕立</p>
+                    </div>
+                </div>
+            </div>
+            <!-- 活动 update -->
+            <div class="m-update o-twopart clearfix">
+                <div class="left">
+                    <div class="content" style="background-image:url(resource/images/update.jpg)">
+                        <div class="inner">
+                            <h2>新魔改</h2>
+                            <h3>NEW</h3>
+                            <p>作者：pixiv</p>
+                            <p>时间：两分钟前</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="content">
+                        <h2>New/<span>01</span></h2>
+                        <p>文案待添加，文案待添加，文案待添加，文案待添加，文案待添加，文案待添加，文案待添加，文案待添加，文案待添加。</p>
+                        <input type="button" value="更多详情">
+                    </div>
+                </div>
+            </div>
+            <div class="m-hot o-threepart clearfix">
+                <div class="left column column-1">
+                    <h2>文案待添加，文案待添加，文案待添加</h2>
+                    <input type="button" value="查看更多">
+                </div>
+                <div class="middle column">
+                    <h2>文案待添加，文案待添加，文案待添加</h2>
+                    <input type="button" value="查看更多">
+                </div>
+                <div class="right">
+                    <div class="content" style="background-image:url(resource/images/hot.jpg)"></div>
+                </div>
+            </div>
+            <div class="m-upload o-trl">
+                <div class="container clearfix">
+                    <div class="top">
+                        <h2>上传你的魔改作品</h2>
+                        <p>分享是快乐的，分享是快乐的，分享是快乐的，分享是快乐的，分享是快乐的，分享是快乐的，分享是快乐的。</p>
+                    </div>
+                    <div class="left">
+                        <section>
+                            <h3>魔改上传条约</h3>
+                            <p>分享是快乐的，分享是快乐的，分享是快乐的，分享是快乐的，分享是快乐的，分享是快乐的，分享是快乐的。</p>
+                            <input type="button" value="more">
+                        </section>
+                        <section>
+                            <h3>魔改上传权利</h3>
+                            <p>分享是快乐的，分享是快乐的，分享是快乐的，分享是快乐的，分享是快乐的，分享是快乐的，分享是快乐的。</p>
+                            <input type="button" value="more">
+                        </section>
+                        <section>
+                            <h3>更多条款</h3>
+                            <p>分享是快乐的.</p>
+                            <input type="button" value="more">
+                        </section>
+                    </div>
+                    <div class="right">
+                        <form action="upload.php" method="get">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <input type="text" value="舰种：">
+                                    </td>
+                                    <td>
+                                        <input type="text" value="船名：">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="text" value="类型：">
+                                    </td>
+                                    <td>
+                                        <input type="text" value="备注：">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <textarea name="beizhu" id="beizhu" cols="159 " rows="10">备注：</textarea>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <input type="submit" value="上传">
+                                    </td>
+                                </tr>
+                            </table>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="g-ft">
+            <!-- contactus -->
+            <div class="m-ctus">
+                <div class="content">
+                    <h2>联系我们</h2>
+                    <p>文案待添加，文案待添加，文案待添加，文案待添加，文案待添加，文案待添加，文案待添加，文案待添加，文案待添加，</p>
+                    <p>
+                        <input type="text" value="somebody@email.com">
+                        <input type="submit">
+                    </p>
+                    <p></p>
+                </div>
+            </div>
+            <!-- copyright -->
+            <div class="m-cprt">
+                <div class="content clearfix">
+                    <span>@舰娘魔改</span>
+                    <a href="">back to top</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

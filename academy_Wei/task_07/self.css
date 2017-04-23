@@ -1,0 +1,439 @@
+.m-nav {
+    position: relative;
+    height: 80px;
+    background-color: #ccc;
+}
+
+.m-nav .content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+}
+
+.m-logo {
+    float: left;
+    height: 30px;
+    vertical-align: middle;
+    margin: 0 30px;
+}
+
+.m-nav ul {
+    float: right;
+    width: 600px;
+    font-size: 16px;
+}
+
+.m-nav li {
+    float: left;
+    margin: 0 30px;
+    list-style-type: none;
+}
+
+.m-nav a {
+    color: #555;
+}
+
+.m-sld .panel {
+    min-height: 900px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-size: 21px;
+    color: #aaa;
+}
+
+.m-sld .content {
+    padding-top: 280px;
+    padding-left: 150px;
+}
+
+.m-sld .content p:first-child {
+    font-size: 60px;
+}
+
+.m-sld .content button {
+    margin-top: 100px;
+    height: 65px;
+    width: 340px;
+    background-color: #c33;
+    border: none;
+    color: #aaa;
+    font-size: 30px;
+}
+
+.m-sld .item img {
+    padding: 0 140px;
+}
+
+.m-sld .item p {
+    padding: 0 140px;
+    margin-bottom: 100px;
+    border-right-style: solid;
+    border-right-color: #bbb;
+    text-align: center;
+}
+
+.m-stc {
+    position: relative;
+    height: 400px;
+    background-color: #eee;
+    text-align: center;
+}
+
+.m-stc .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.m-stc img {
+    width: 150px;
+    height: 150px;
+}
+
+.m-stc p {
+    color: #aaa;
+    font-size: 54px;
+}
+
+.m-sch {
+    position: relative;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 600px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+
+.m-sch .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.m-sch .content p {
+    font-size: 18px;
+    margin: 50px;
+}
+
+.m-sch .content h2 {
+    font-size: 35px;
+    margin: 50px;
+}
+
+.m-sch select,
+.m-sch input {
+    width: 240px;
+    height: 35px;
+    margin: 0 30px;
+    border-style: none;
+    color: #aaa;
+}
+
+.m-sch input {
+    background-color: #c33;
+    color: #fff;
+}
+
+.m-top {
+    padding: 100px 90px;
+    background-color: #eee;
+    text-align: center;
+}
+
+.m-top .item {
+    padding: 0 40px;
+}
+
+.m-top .item p {
+    font-size: 18px;
+    color: #aaa;
+}
+
+.m-top .item h3 {
+    font-size: 30px;
+    color: #000;
+}
+
+.o-twopart {
+    position: relative;
+}
+
+.o-twopart .left,
+.o-twopart .right {
+    position: relative;
+    float: left;
+    height: 800px;
+}
+
+.o-twopart .left {
+    width: 100%;
+}
+
+.o-twopart .right {
+    margin-left: -645px;
+    width: 645px;
+}
+
+.m-update .left .content {
+    height: 800px;
+    margin-right: 645px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-origin: content-box;
+}
+
+.m-update .left .inner {
+    position: absolute;
+    top: 50%;
+    left: calc(50% - 322.5px);
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.m-update .left h2 {
+    font-size: 49.5px;
+}
+
+.m-update .left h3 {
+    font-size: 157.8px;
+}
+
+.m-update .left p,
+.m-update .right h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.m-update .right .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.m-update .right p {
+    color: #aaa;
+    font-size: 12px;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+.m-update .right span {
+    color: #f00;
+}
+
+.m-update .right input {
+    width: 160px;
+    height: 50px;
+    border-style: solid;
+    border-color: #f00;
+    background-color: #fff;
+    color: #f00;
+}
+
+.o-threepart {
+    position: relative;
+}
+
+.o-threepart .left,
+.o-threepart .middle {
+    float: left;
+    height: 700px;
+    width: 600px;
+}
+
+.o-threepart .right {
+    float: right;
+    width: 100%;
+    margin-left: -1200px;
+}
+
+.o-threepart .right .content {
+    margin-left: 1200px;
+    height: 700px;
+}
+
+.m-hot .right .content {
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.m-hot .column {
+    padding: 300px 150px;
+    text-align: center;
+    font-size: 21px;
+    color: #f00;
+}
+
+.m-hot .column h2 {
+    margin-bottom: 50px;
+}
+
+.m-hot .column input {
+    width: 200px;
+    height: 60px;
+    border-style: solid;
+    border-color: #f33;
+    background-color: #fff;
+    color: #f33;
+    font-size: 21px;
+}
+
+.m-hot .column-1 {
+    background-color: #f33;
+    color: #fff;
+}
+
+.m-hot .column-1 h2 {
+    background-color: #f33;
+    color: #fff;
+}
+
+.m-hot .column-1 input {
+    border-style: solid;
+    border-color: #fff;
+    background-color: #f33;
+    color: #fff;
+}
+
+.m-upload .container {
+    margin: 210px;
+    align-items: center;
+}
+
+.o-trl .top {
+    width: 100%;
+    margin: 0 0 150px 0;
+}
+
+.o-trl .top,
+.o-trl .left,
+.o-trl .right {
+    float: left;
+}
+
+.o-trl .left {
+    width: 450px;
+}
+
+.o-trl .right {
+    width: 100%;
+    margin-left: -450px;
+    padding-left: 500px;
+}
+
+.m-upload .top {
+    text-align: center;
+}
+
+.m-upload .top h2 {
+    font-size: 21px;
+    margin-bottom: 30px;
+}
+
+.m-upload .top p {
+    font-size: 12px;
+}
+
+.m-upload table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.m-upload td {
+    height: 40px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #fff;
+}
+
+.m-upload .left h3 {
+    margin-bottom: 20px;
+}
+
+.m-upload .left section {
+    margin-bottom: 30px;
+}
+
+.m-upload .left input {
+    position: relative;
+    right: 0;
+}
+
+.m-upload .right input {
+    height: 100%;
+    width: 100%;
+    border-style: none;
+    background-color: #eee;
+}
+
+.m-upload .right textarea {
+    background-color: #eee;
+    border-style: solid;
+    border-color: #fff;
+    font-size: 12px;
+}
+
+.m-ctus {
+    position: relative;
+    height: 500px;
+    background-color: #333;
+    text-align: center;
+    color: #fff;
+}
+
+.m-ctus .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.m-ctus h2 {
+    font-size: 21px;
+}
+
+.m-ctus p {
+    font-size: 12px;
+    margin: 20px auto;
+}
+
+.m-ctus input[type="text"] {
+    width: 500px;
+    height: 40px;
+}
+
+.m-ctus input[type="submit"] {
+    width: 60px;
+    height: 40px;
+    border: none;
+    color: #fff;
+    background-color: #666;
+}
+
+.m-cprt {
+    position: relative;
+    height: 100px;
+    background-color: #444;
+}
+
+.m-cprt .content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: justify;
+    color: #fff;
+}
+
+.m-cprt a {
+    float: right;
+    color: #fff;
+}
