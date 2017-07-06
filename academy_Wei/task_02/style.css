@@ -11,6 +11,9 @@ body {
     border-style: outset;
 }
 
+#h2{
+    color:green;
+}
 h1 {
 	width: 13%;
 	margin: 0px;
